@@ -1,57 +1,47 @@
-# %% [markdown]
-# ## Basic Operation   
+
+## Basic Operation   
 #     +     addition
 #     -     subtraction
 #     *     multiplication
 #     /     forward selation  division
 # 
 
-# %%
+
 56890+43218
 
-# %%
 7865*654
 
-
-# %%
 125//5
 
-# %% [markdown]
-# # The order of operation
+
+ # The order of operation
 # 5+30*20 = 605
 # mulitplication & DIVISION are first use the addition and substraction use. 
 # parentheses can change the order of operation
 
-# %% [markdown]
 # # variable
 # variable in programming  means a place to store information  such as number , text , list of number.
 
-# %%
-### Python Primer 101
 # string 
 df= "first caliph"
 df
 
-# %%
 # backslash \ "yes i know i have quotes inside my string  and  want you to ignor them untill you see the end quote"
 single_quote_str = 'He said ,"Aren\'t can\'t shouldn\'t wouldn\'t "' 
 print(single_quote_str)
 
-# %%
+
 # Embedding value in string ( inserting value)
 myscore = 1000
 message = 'I score %s poiunts '
 print(message % myscore)
 
-# %%
 nums = 'What did the number %s say to the number %s ? Nice belt'
 print(nums %(0,8))
 
-# %%
 # Multiplying string 
 print(10 * "b")
 
-# %%
 spaces = '' * 25
 print( '%s 12 DHA Phase 5' % spaces)
 print('%s Clifton ' % spaces)
@@ -69,7 +59,7 @@ print('Sharfoo')
 
 
 
-# %%
+
 spaces = '' * 25
 print( '%s The Principal' % spaces)
 print('%s A.b.C. ' % spaces)
@@ -90,41 +80,37 @@ print('Tayyaba Anwer')
 
 
 
-# %%
 print(1000* "KARACHI")
 
-# %%
 sharfoo_list = 'vegetable , fruit , samosa , tea'
 print(sharfoo_list)
 
-# %%
 # List can store all sort of terms 
 some_number = [1,2,5,10,20]
 number_and_strings = ['Why','was', 6 , 'afraid', 'of' ,7, 'beacuse' , 7,8,9]
 print (number_and_strings)
 
-# %%
+
 # list within a list
 numbers = [1,2,3,4]
 strings = ['I','kicked' , 'my' , 'toe', 'and','it' , 'is', 'sore']
 mylist = [numbers , strings]
 print(mylist)
 
-# %%
 wizard_list = ['spider legs' , 'toe of frog' , 'eye of newt' ,' bat wing' , 'slug butter', 'snake dandruff']
 print(wizard_list)
 wizard_list = ['spider legs' , 'toe of frog' , 'eye of newt' ,' bat wing' , 'slug butter', 'snake dandruff']
 wizard_list. append('bear burp')
 print(wizard_list)
 
-# %%
+
 wizard_list = ['spider legs' , 'toe of frog' , 'eye of newt' ,' bat wing' , 'slug butter', 'snake dandruff']
 wizard_list.append('mandrake')
 wizard_list.append('hemlock')
 wizard_list.append('swamp gas')
 print(wizard_list)
 
-# %%
+
 # Sum  & Product of two list are possible , but division and subtraction of to list are not possible
 list1 =[1,2,3,4]
 list2 = ['I', 'ate', 'chocolate' , 'i' , 'want' , 'more']
@@ -134,32 +120,22 @@ print(list3)
 list4 = [5,6]
 print(list4 *6)
 
-# %%
+
 # Tuple
 # a tuple is like a list that uses prentheses like as ,
 fibs = (0,1,1,2,3)
 # in tuple can never change the values in list.
 
-# %% [markdown]
-# ## Python primer 102
-
-# %%
 # IF statement
 age = 21
 if age > 20:
     print('you are too old')
 
-# %%
 age = 21
 if age > 20:
     print('you are too old')
-    print('Why are you here?')
-    
-
-# %% [markdown]
-# # python primer 102b
-
-# %% [markdown]
+    print('Why are you here?
+          
 # # condition in python 
 # == equal to 
 # <  greater than
@@ -167,7 +143,7 @@ if age > 20:
 # ! = is not equal to
 # 
 
-# %%
+
 print(" Want to hear  a dirty joke?")
 age =12
 if age == 12:
@@ -175,7 +151,7 @@ if age == 12:
 else:
      print("Shh . It's a secret")   
 
-# %%
+
 age = 10 
 if age == 10:
     print('What do you call an unhappy cranberry?')
@@ -193,14 +169,12 @@ else:
     print("Huh?")
 
 
-# %%
 # difference betweeen string and number
 age = 10  # (number)
 if age == 10:
     print("What's the best way to speak to a monster?")
     print("From as f away as possible")
 
-# %%
 age = '10'  # (string)
 if age == 10:
     print("What's the best way to speak to a monster?")
@@ -215,35 +189,28 @@ if Converted_age == 10:
     print("From as f away as possible")
 
 
-
-# %% [markdown]
-# ## python primer 103
 # # loop
 # # for , while , range
-
-# %%
+          
 for x in range (0,5):
     print('Salam')
 
-# %%
 # using range and list together
 print(list(range(10,20)))
 
 
-# %%
+
 #printing in twice
 hugehairypants= ['huge'  'hairy' , 'pants']
 for i in hugehairypants:
     print(i)
     print(i)
 
-# %% [markdown]
 # # for :
 # A for loop is a loop of specific length
 # # while:
 # while loop  is a loop that used when you don't know ahead of time when it needs to stop looping 
 
-# %%
 x = 45
 y= 80
 while x< 50 and y<100:
@@ -251,61 +218,47 @@ while x< 50 and y<100:
     y= y+1
     print(x,y)
 
-# %% [markdown]
-# # pyton primer 104
 # code and function modules
-
-# %%
 list(range(0,8))
 
-# %%
 import time 
 print(time.asctime)
 
-# %%
 #testfun('marry')
 
 def testfun(myname):
     print("hello %s" % myname)
 
-# %%
 #creating variable
 firstname = 'mohammad'
 lastname = 'omar'
 #testfun(firstname, lastname)
 print(firstname, lastname)
 
-# %%
+
 # using return
 def variable_test ():
     first_variable = 10
     second_variable = 20
     return first_variable*second_variable
     print(variable_test())
+          
 
-# %% [markdown]
 # A Module is a python object with arbitrarily
 # a module can be defin function, classes  and variable
 # also include runnable code
 
-# %%
 import time
 print(time.asctime())
-
-# %% [markdown]
-# # python primer 105
+          
 # objects and classes
 
-# %% [markdown]
-# ## python primer 106
 # python build_ in _function
 
-# %%
 # python abs
 # the syntax abs()     parameter 
 #abs(num)     num--- integer , floating , complex number
 
-# %% [markdown]
 # # bool    (True or False)
 # 
 # the following  values are consider 
