@@ -1,0 +1,36 @@
+# NewCode
+Popular Python Project
+### Introduction:
+In this project, students will learn to program in Python. This project  is aimed at students who may, or may not, have any experience at all, but are beginners in Python. Students will learn the basics of how python works including: manipulation of strings, math operations, writing functions, and many more things. This class will be taught using Python 3. In addition, as a new feature, this class will have projects based on designing games and art using python. 
+
+###  What is Python used for?
+Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it’s relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances.
+
+###  “Writing programs is a very creative and rewarding activity,”
+
+- What can you do with python? Some things include:
+
+1) Data analysis and machine learning
+2) Web development
+3) Automation or scripting
+4) Software testing and prototyping
+5) Everyday tasks
+
+### Course Content 
+- Basic Python Operation
+- Data Structure 
+- List 
+- Tuple
+- Set
+- Dictoinary
+- Pandas 
+- Numpy
+- Seaborn
+- Matplotlib
+
+### Built with
+
+- Visual Studio is an Integrated Development Environment, also known as an IDE. Visual Studio Code is a code editor
+
+### Authors 
+Tayyaba
