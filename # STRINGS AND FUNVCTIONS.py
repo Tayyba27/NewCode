@@ -1,4 +1,4 @@
-#  STRINGS AND FUNVCTIONS
+#  String and Function
 #  String Slicing 
 # is used a lot in real life . within machine learning , deep learning , data wrangling , AI , website  and game.
 
